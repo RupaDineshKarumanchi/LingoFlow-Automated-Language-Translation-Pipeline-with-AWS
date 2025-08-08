@@ -5,24 +5,24 @@ It leverages AWS cloud services to process spoken input, translate it into the d
 The entire pipeline is automated using AWS Step Functions, orchestrating multiple AWS Lambda functions for a smooth, scalable, and efficient translation workflow.
 
 # Features
-🎤 Voice-to-Text – Converts speech to text using Amazon Transcribe.
-🌍 Language Translation – Translates text to the target language using Amazon Translate.
-🔊 Text-to-Speech – Generates speech output using Amazon Polly.
-⚡ Serverless Orchestration – Fully automated with AWS Step Functions and AWS Lambda.
-☁ Scalable & Cost-Effective – Pay only for what you use with AWS serverless infrastructure.
+1. 🎤 Voice-to-Text – Converts speech to text using Amazon Transcribe.
+2. 🌍 Language Translation – Translates text to the target language using Amazon Translate.
+3. 🔊 Text-to-Speech – Generates speech output using Amazon Polly.
+4. ⚡ Serverless Orchestration – Fully automated with AWS Step Functions and AWS Lambda.
+5. ☁ Scalable & Cost-Effective – Pay only for what you use with AWS serverless infrastructure.
 
 ![Blank diagram](https://github.com/user-attachments/assets/d717ff6f-d794-4009-855b-6fc9bd11a5c7)
 
 # Services Used:
 
-AWS S3 – Storage for input/output audio and intermediate files.
-AWS Step Functions – Workflow automation and orchestration.
-AWS Lambda – Custom processing for each step.
-AWS Transcribe – Speech-to-text processing.
-AWS Translate – Multilingual text translation.
-AWS Polly – Text-to-speech synthesis.
-AWS IAM – Secure permissions and access control.
-AWS CloudWatch – Monitoring, logging, and debugging.
+1. AWS S3 – Storage for input/output audio and intermediate files.
+2. AWS Step Functions – Workflow automation and orchestration.
+3. AWS Lambda – Custom processing for each step.
+4. AWS Transcribe – Speech-to-text processing.
+5. AWS Translate – Multilingual text translation.
+6. AWS Polly – Text-to-speech synthesis.
+7. AWS IAM – Secure permissions and access control.
+8. AWS CloudWatch – Monitoring, logging, and debugging.
 
 # Deployment
 
